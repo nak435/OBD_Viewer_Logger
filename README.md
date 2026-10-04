@@ -6,7 +6,7 @@ BLE 接続の OBD2 ゲートウェイ（AsyncCAN-C3）から車両データを�
 
 開発の経緯や設計については、こちらの記事で紹介しています。
 
-- [OBD Viewer Logger 開発記](https://qiita.com/nak435/private/7d08c09fb440fe8f4994)
+- [車載CANロガーの作成](https://qiita.com/nak435/items/abb961a748de924bedb5)
 
 ## 主な機能
 
