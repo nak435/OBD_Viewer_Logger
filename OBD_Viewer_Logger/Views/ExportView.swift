@@ -16,12 +16,12 @@ struct ExportView: View {
         NavigationStack {
             VStack(spacing: 24) {
                 VStack(spacing: 4) {
-                    Text("\(recordCount) 行のログ（1秒=1行）")
+                    Text("\(recordCount) 行のログ")
                     Text("\(appEventCount) 件のアプリログ")
                 }
                 .foregroundStyle(.secondary)
 
-                Toggle("アプリログを一緒に出力（AppEvent列）", isOn: $includeAppLog)
+                Toggle("アプリログを一緒に出力", isOn: $includeAppLog)
                     .frame(maxWidth: 420)
 
                 Button {

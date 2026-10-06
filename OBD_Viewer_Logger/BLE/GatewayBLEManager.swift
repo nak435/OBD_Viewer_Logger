@@ -321,6 +321,8 @@ extension GatewayBLEManager: CBCentralManagerDelegate {
     }
 
     private func didConnectPeripheral(_ peripheral: CBPeripheral) {
+        // 復元直後は connectIfNeeded() と didConnect の両方から呼ばれる。2 回目は無視する
+        guard !isDiscovering, rxChar == nil else { return }
         trace("didConnect: \(peripheral.identifier)")
         awaitingConnect = false
         appLog("link connected")
