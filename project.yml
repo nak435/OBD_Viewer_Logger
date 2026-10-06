@@ -31,5 +31,6 @@ targets:
         TARGETED_DEVICE_FAMILY: "1,2" # 1=iPhone, 2=iPad
         MARKETING_VERSION: "1.0"
         CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         CODE_SIGN_STYLE: Automatic
         DEVELOPMENT_TEAM: UNKNOWN # 公開用のダミー。ビルド時に DEVELOPMENT_TEAM=<自分のTeamID> をコマンドで上書きする

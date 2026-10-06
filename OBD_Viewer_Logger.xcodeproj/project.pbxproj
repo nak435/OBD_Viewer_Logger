@@ -10,6 +10,7 @@
 		08604373460B4CDCEF222146 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4724009D9FE150321EB867D /* DashboardView.swift */; };
 		109C13AE8070710CB620F06B /* AppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AB1FFEDF48C346EE38AC6 /* AppEvent.swift */; };
 		41137D63D65E8235E66EF762 /* PidSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087BB9EDE800FEED29E938D0 /* PidSelectView.swift */; };
+		6618A16E7B1661731E63F7E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F25A8141109D7113002714E /* Assets.xcassets */; };
 		682273028A7E0E7BB58DB142 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BDE59F9BB9584B6557D3B6F /* RealmSwift */; };
 		8C69C66A8E72CE91FCB732C8 /* GatewayBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57AC9C2FCD0DD9BCED9A009 /* GatewayBLEManager.swift */; };
 		8F7D11D02E2DCCF76E6B5FEF /* LogSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE04216AE226DEA47A951 /* LogSample.swift */; };
@@ -45,6 +46,7 @@
 		4B0E037B77726305ADC6A0AD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		4FAB29FDCF4C66EDEF48FFC5 /* OBD_Viewer_LoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD_Viewer_LoggerApp.swift; sourceTree = "<group>"; };
 		8B7482A0855A9FE108D4D076 /* OBD_Viewer_Logger.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OBD_Viewer_Logger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F25A8141109D7113002714E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A70927FC95AB52A0CC75D5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AF6AB1FFEDF48C346EE38AC6 /* AppEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEvent.swift; sourceTree = "<group>"; };
 		C314713A86A2A6F63E6D0E84 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		58FC7DA3D7054576500E8E4F /* OBD_Viewer_Logger */ = {
 			isa = PBXGroup;
 			children = (
+				9F25A8141109D7113002714E /* Assets.xcassets */,
 				A70927FC95AB52A0CC75D5F4 /* Info.plist */,
 				D5DD03127418F08695E5ADD9 /* App */,
 				37364D14C519FC2E6EF0AC6D /* BLE */,
@@ -150,6 +153,7 @@
 			buildConfigurationList = 154A73D1D654F87E1A011EF8 /* Build configuration list for PBXNativeTarget "OBD_Viewer_Logger" */;
 			buildPhases = (
 				D97116750C6E9DDE8148D96F /* Sources */,
+				A4EDB2119E09799C4CE540F3 /* Resources */,
 				EF7B437AD6C9D503036D3917 /* Frameworks */,
 				630EB55D92DB142F29AB5008 /* Embed Frameworks */,
 			);
@@ -201,6 +205,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4EDB2119E09799C4CE540F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6618A16E7B1661731E63F7E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D97116750C6E9DDE8148D96F /* Sources */ = {

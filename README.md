@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="OBD_Viewer_Logger/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="160" alt="OBD Viewer Logger app icon">
+</p>
+
 # OBD Viewer Logger
 
 BLE 接続の OBD2 ゲートウェイ（AsyncCAN-C3）から車両データを取得し、記録・確認するための iOS（iPhone / iPad）アプリです。SwiftUI・CoreBluetooth・Realm で作られています。
